@@ -1,0 +1,147 @@
+<style>
+/*put the whole page in a container and center it*/
+div.container {
+text-align: center;
+padding: 0px;
+
+}
+
+div.text {
+/*by inheritance the text will be centered in each element*/
+margin-left: auto;
+margin-right: auto;
+background: white;
+padding: 0;
+font-family: sans-serif;
+/*put a 2 pixel border around the container*/
+border: 2px solid #990000;
+/*fix the width of the container to 760 pixels*/
+width: 760px;
+}
+
+div.text2 {
+/*by inheritance the text will be centered in each element*/
+margin-left: auto;
+margin-right: auto;
+background: white;
+text-align: center;
+padding: 0;
+font-family: sans-serif;
+/*put a 2 pixel border around the container*/
+border: 2px solid #990000;
+/*fix the width of the container to 500 pixels*/
+width: 500px;
+}
+
+body {
+/*margins around the body of the text*/
+margin: 0px;
+text-align: center;
+/*here is the image that we use for a background - if the image can't load it defaults to white*/
+background-image: url(https://mirror.aclweb.org/~djh/acl08/images/osu_logo_bg.gif)
+}
+
+/*the navigation bar will be a 'sidebar' menu, this is the beginning of the setup for the nav bar*/
+#sidebar {
+    margin: .0em;
+    margin-top: 0px;
+    /*float: left;
+    align: left;*/
+    width: 150px;
+}
+/*making the navigation bar an unordered list of links*/
+#sidebar #menu ul {
+    /*align: left;
+    width: 100%;*/
+    margin-left: 0em;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+/*the navigation buttons are formatted here*/
+#sidebar #menu li {
+    font-size: medium;
+    font-weight: bold;
+    list-style-type: none;
+    font-family: "palatino linotype";
+    display: block;
+    margin: 2px;
+    background: #990000;
+    text-align: center;
+    padding: 3px;
+}
+/*the links in the sidebar menu (navigation button links) should not be underlined*/
+#sidebar #menu a {
+    text-decoration: none;    
+    color: white;
+}
+
+/*on mouseover navigation button text turns grey*/
+#sidebar #menu a:hover {
+    color: #d6dcd3;
+}
+
+/*non-menu items in sidebar should be centered*/
+#sidebar #p {
+	text-align: center;
+}
+
+/*link color should match OSU logo*/
+a {
+    color: #990000;
+}
+
+/*no border on logos*/
+.logo {
+    border: 0px;
+    text-align: center;
+}
+
+#content {
+    padding: 0px;
+    padding-left: 7px;
+    padding-right: 5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.no-dot-list {
+    padding: 0px;
+    padding-left: 7px;
+    padding-right: 5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+
+.no-dot-list ul {
+    /*align: left;
+    width: 100%;*/
+    margin-left: 0em;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.no-dot-list li { 
+    list-style-type: none;
+    margin: 0px;
+	
+}
+.center {
+	text-align: center;
+}
+
+.blue20 {
+	color: blue;
+	font-size: 20px;
+}
+
+.blue18 {
+	color: blue;
+	font-size: 18px;
+}
+
+</style>
+
+
